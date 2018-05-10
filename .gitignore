@@ -1,0 +1,6 @@
+*.o
+*.bin
+a.out
+
+# Editor files
+*.sw[po]
