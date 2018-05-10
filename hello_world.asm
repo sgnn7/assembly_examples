@@ -19,4 +19,6 @@ _start:
 section     .data                 ; Static data section
 
 msg         db  'Hello, World!', 0xa    ; Our string terminated with a line-feed.
-len         equ $ - msg                 ; Since our string is static, we know its length.
+len         equ $ - msg                 ; Since our string is static, we know its length. The '$' is
+                                        ; our current position and we calculate the length by
+                                        ; subtracting the start of 'msg' variable from it.
