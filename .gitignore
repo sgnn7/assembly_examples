@@ -2,5 +2,8 @@
 *.bin
 a.out
 
+# We may get an exception too :)
+core
+
 # Editor files
 *.sw[po]
